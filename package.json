@@ -10,16 +10,17 @@
   "author": "Gabriel Florit",
   "license": "MIT",
   "dependencies": {
-    "mkdirp": "^1.0.4",
-    "rollup": "^2.75.5",
-    "minimist": "1.2.6",
-    "point-in-polygon": "^1.1.0",
-    "optimist": "0.6.1",
-    "numeral": "^2.0.6",
-    "lodash": "^4.17.21",
-    "pace": "^0.0.4",
     "csv2geojson": ">=5.1",
-    "d3": "^7.4.4"
+    "d3": "^7.4.4",
+    "lodash": "^4.17.21",
+    "minimist": "1.2.6",
+    "mkdirp": "^1.0.4",
+    "numeral": "^2.0.6",
+    "optimist": "0.6.1",
+    "p2p": "^0.10.2",
+    "pace": "^0.0.4",
+    "point-in-polygon": "^1.1.0",
+    "rollup": "^2.75.5"
   },
   "engines": {
     "node": ">=8.0"
