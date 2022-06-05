@@ -17,11 +17,11 @@
     "optimist": "0.6.1",
     "numeral": "^2.0.6",
     "lodash": "^4.17.21",
-    "pace": "^o.0.4",
-    "csv2geojson": "^5.5.1",
+    "pace": "^0.0.4",
+    "csv2geojson": ">=5.1",
     "d3": "^7.4.4"
   },
   "engines": {
-    "node": "^17.7.2"
+    "node": ">=8.0"
   }
 }
