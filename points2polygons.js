@@ -39,7 +39,7 @@ var batch = function(_polygons, _points, showProgress, _count, _groupBy, _sum) {
 			}
 
 			if (geometryType === 'MultiPolygon') {
-	
+
 				// for each coordinates
 				polygon.geometry.coordinates.forEach(function(coordinates) {
 
@@ -91,7 +91,7 @@ var batch = function(_polygons, _points, showProgress, _count, _groupBy, _sum) {
 				} else {
 
 					var properties = _(points)
-						.pluck('properties')
+						.map('properties')
 						.map(function(v, i) {
 
 							var items = _(v)
@@ -130,7 +130,7 @@ var batch = function(_polygons, _points, showProgress, _count, _groupBy, _sum) {
 				var properties = {};
 
 				_(points)
-					.pluck('properties')
+					.map('properties')
 					.groupBy(function(v, i) {
 						return v[_groupBy];
 					})
